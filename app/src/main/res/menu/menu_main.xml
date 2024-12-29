@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Activity1" />
+        <item
+            android:id="@+id/activity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Activity2" />
+        <item
+            android:id="@+id/activity3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Activity3" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile"
+            android:id="@+id/profile">
+            <menu>
+                <item
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:title="Profile"
+                    android:icon="@drawable/baseline_person_24"/>
+                <item
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:title="My List"
+                    android:icon="@drawable/baseline_person_24"/>
+                <item
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:title="Logout"
+                    android:icon="@drawable/baseline_person_24"/>
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Communicate"
+        android:id="@+id/communicate">
+        <menu>
+
+            <item
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Share"
+                android:icon="@drawable/baseline_person_24"/>
+            <item
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Rate Us"
+                android:icon="@drawable/baseline_person_24"/>
+        </menu>
+    </item>
+
+
+
+</menu>
